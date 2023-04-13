@@ -1,0 +1,19 @@
+{
+  "name": "e-lection",
+  "version": "1.0.0",
+  "description": "Backend for blockchain based voting app",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev --poll src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/koa": "^2.13.6",
+    "dotenv": "^16.0.3",
+    "koa": "^2.14.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  }
+}
