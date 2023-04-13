@@ -1,5 +1,11 @@
 {
   "success": {
-    "server": "Server running on port {{port}}"
+    "server": "Server running on port {{port}}",
+    "voteCasted": "Vote successfully casted!"
+  },
+  "errors": {
+    "invalidAccount": "Invalid account",
+    "missing": "Missing required field '{{key}}'",
+    "unprocessableEntity": "Unprocessable entity"
   }
 }
